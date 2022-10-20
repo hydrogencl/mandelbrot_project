@@ -64,13 +64,12 @@ MPI_SET.MPI_MESSAGE("Done Preparing Array and MPI")
 # Preparing the netCDF4-Data
 
 
-
 # Calculation
 
 ARR_OUT = mb_calculate_binary(ARR_IN, ARGS.NUM_REPEATS, num_thre=ARGS.NUM_THRE)
 MPI_SET.MPI_MESSAGE("Done Calculation            ")
 
-# Stroring 
+# Storing 
 
 
 
